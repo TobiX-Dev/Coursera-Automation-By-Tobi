@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Boring Quiz Solver",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A solver for Coursera",
   "icons": {
     "16": "icons/icon16.png",
@@ -25,21 +25,36 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.coursera.org/*"],
-      "js": ["content.js"],
+      "matches": [
+        "https://*.coursera.org/*"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_idle"
     }
   ],
-  "permissions": ["activeTab", "storage", "scripting", "tabs"],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
   "host_permissions": [
     "https://*.coursera.org/*",
     "https://api.groq.com/*",
+    "https://generativelanguage.googleapis.com/*",
     "https://quizsolver.infinityfreeapp.com/*"
   ],
   "web_accessible_resources": [
     {
-      "resources": ["pageBridge.js"],
-      "matches": ["https://*.coursera.org/*"]
+      "resources": [
+        "pageBridge.js",
+        "icons/logo.png"
+      ],
+      "matches": [
+        "https://*.coursera.org/*"
+      ]
     }
   ],
   "options_ui": {
