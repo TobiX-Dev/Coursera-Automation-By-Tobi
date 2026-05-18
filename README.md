@@ -4,13 +4,13 @@
 
 # Coursera Solver Free — by T🍀
 
-Demo Video = https://jumpshare.com/share/ulq0yELMIRACD0YUX67E
+Demo Video = (https://www.youtube.com/watch?v=Ud43NpEMtMY&t)
 
 **The smartest Coursera automation tool. AI-powered quiz solving, video skipping, and full course completion — all in one click.**
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4c8bf5?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX)
 [![Status](https://img.shields.io/badge/Status-Working-10b981?style=flat-square)](https://quizsolver.infinityfreeapp.com/coursera_license/status.php)
-[![Groq AI](https://img.shields.io/badge/Powered%20by-Groq%20AI-a855f7?style=flat-square)](https://console.groq.com)
+[![ AI](https://img.shields.io/badge/Powered%20by-Gemini,Groq%20AI-a855f7?style=flat-square)](https://console.groq.com)
 [![Stars](https://img.shields.io/github/stars/TobiX-Dev/Coursera-Automation-By-TobiX?style=flat-square&color=fbbf24)](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX/stargazers)
 
 </div>
@@ -21,15 +21,14 @@ Demo Video = https://jumpshare.com/share/ulq0yELMIRACD0YUX67E
 
 | Feature | What it does | Status |
 |---|---|---|
-| 🤖 **Auto Solve Quiz** | Sends questions to Groq's Llama 3.3 70B — fills every answer automatically | ✅ Working |
+| 🤖 **Auto Solve Quiz** | Sends questions to Groq's Llama 3.3 And Now Improved with Gemini Free Models Ai — fills every answer automatically | ✅ Working |
 | 🚀 **Solve All Quizzes** | Pipeline mode — finds, navigates, solves, and submits every quiz in the course | ✅ Working |
 | 🎬 **Skip Videos** | Marks all lecture videos as watched via Coursera API — no playback needed | ✅ Working |
 | 📖 **Skip Readings** | Completes all reading supplements instantly | ✅ Working |
 | 💬 **Skip Discussions** | Auto-posts a reply to all discussion prompts | ✅ Working |
 | 🔌 **Skip Plugins** | Marks ungraded labs, widgets & notebooks as done | ✅ Working |
 | 🔗 **Shareable Link** | Copies the direct review link for peer assignments | ✅ Working |
-| 📜 **Honor Code** | Auto-checks the honor code checkbox before submission | ✅ Built-in |
-| 👍 **Undetected** | No flags, no bans — works under the radar on any account | ✅ Working |
+| 📜 **Honor Code** | Auto-checks the honor code checkbox before submission | ✅ Built-in |  
 
 ---
 
@@ -44,20 +43,20 @@ Demo Video = https://jumpshare.com/share/ulq0yELMIRACD0YUX67E
 6. Click the extension icon → enter your free key → add Groq API key → done ✓
 ```
 
-**Get a free key →** [Quiz Solver](https://quizsolver.infinityfreeapp.com/coursera_license/buy-key.php)  
-**Get Groq API key (free) →** [Groq Api](https://console.groq.com/keys)
+**Get a free key →** [Quiz Solver](https://quizsolver.infinityfreeapp.com/coursera_license/yoo.php)  
+**Get API keys (free) →** [Groq Api](https://console.groq.com/keys) [Gemini Api](https://aistudio.google.com/api-keys)
 
 ---
 
 ## 🧑‍💻 How to Use
 
-### Solve a Single Quiz
+### Solve a Single Quiz 
 1. Open any Coursera quiz page
 2. Click the extension icon
 3. Hit **"Solve This Quiz"**
 4. The extension fills all answers — confirm submission when prompted ✓
 
-### Solve All Quizzes in a Course
+### Solve All Quizzes in a Course (Works Only With Groq Not Gemini Cuz Of RPM Limits)
 1. Go to the **Assignments** or **Grades** page of a course
 2. Click the extension icon
 3. Hit **"Solve All Quizzes"**
@@ -72,27 +71,18 @@ Demo Video = https://jumpshare.com/share/ulq0yELMIRACD0YUX67E
 2. Click **"Shareable Link"** in the popup
 3. Link is copied to clipboard — share with your reviewer ✓
 
-## 🛠️ Setup — Groq API Key
+## 🛠️ Setup —  API Keys
 
-The quiz solver uses **Groq's free Llama 3.3 70B** model.
+The quiz solver uses **Groq's free Llama 3.3 And Gemini Models 2.5F,3.1F,3.0F,2.5P ** models.
 
-1. Go to [console.groq.com/keys](https://console.groq.com/keys)
-2. Create a free account → generate an API key
-3. Paste it in the extension popup under **⚙ Settings → Groq API Key** → Save
+1. Go to [console.groq.com/keys](https://console.groq.com/keys) Or [aistudio.google.com/api-keys](https://aistudio.google.com/api-keys)
+2. Create a free account → generate an API key / For Gemini Just Login With GMail
+3. Paste it in the extension popup under **⚙ Settings →  API Keys ** → Save
 
 No cost. No limits for normal usage.
 
 ---
 
-## 🔮 Coming Soon
-
-- [ ] 🎯 Auto-detect and solve all quizes without api
-- [ ] 📊 Course progress tracker inside the popup
-- [ ] 🌐 quiz scraper
-- [ ] 🔄 Auto-retry on failed quiz submissions
-- [ ] 🌍 more new ai support [gemini.deepseek,gpt]
-
----
 
 ## 🙏 Support the Project
 
