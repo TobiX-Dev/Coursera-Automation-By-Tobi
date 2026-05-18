@@ -21,7 +21,7 @@ Demo Video = (https://www.youtube.com/watch?v=Ud43NpEMtMY&t)
 
 | Feature | What it does | Status |
 |---|---|---|
-| 🤖 **Auto Solve Quiz** | Sends questions to Groq's Llama 3.3 And Now Improved with Gemini Free Models Ai — fills every answer automatically | ✅ Working |
+| 🤖 **Auto Solve Quiz (Gemini Added For More Accuracy)** | Sends questions to Groq's Llama 3.3 And Now Improved with Gemini Free Models Ai — fills every answer automatically | ✅ Working |
 | 🚀 **Solve All Quizzes** | Pipeline mode — finds, navigates, solves, and submits every quiz in the course | ✅ Working |
 | 🎬 **Skip Videos** | Marks all lecture videos as watched via Coursera API — no playback needed | ✅ Working |
 | 📖 **Skip Readings** | Completes all reading supplements instantly | ✅ Working |
